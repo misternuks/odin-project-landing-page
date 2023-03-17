@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    font-family: "roboto", sans-serif;
+}
+.header {
+display: flex;
+justify-content: space-between;
+padding: 32px;
+}
+
+.signup-item,
+.header-links,
+.hero-text,
+.hero-image,
+button,
+.footer {
+font-size: 18px;
+color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 1000;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+.hero-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 32px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image {
+    display: flex;
+    flex: 1;
+    background: #888;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-item,
+button {
+    background-color: #3882F6;
+}
+
+button {
+    border: solid #fff 1px;
+    border-radius: 4px;
+    padding: 4px 16px;
+    margin: 16px 0;
+
+}
+
+.information-container {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px; 
+}
+    
+.image-item {
+    width: 128px;
+    flex: 1;
+    text-align: center;
+}
+
+.image-box {
+    height: 128px;
+    width: 128px;
+    border-radius: 8px;
+    border: solid 4px #3882F6;;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    background-color: #E5E7EB;
+}
+
+.signup-container {
+    background-color: white;
+    padding: 64px;
+}
+
+.signup-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+    border-radius: 16px;
+
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+}
+
+h3,
+p {
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer {
+    text-align: center;
+    padding: 16px;
+}
